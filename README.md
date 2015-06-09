@@ -10,10 +10,9 @@ java version: 1.7
 
 target-jar包路径：./target/hadoop-basic-1.0-SNAPSHOT.jar (rename：wc.jar)
 
->maven 使用
-
-> -idea自动导入依赖的jar包，修改一下pom.xml,然后点击右上角的auto import。
-> -mvn compile|package
+> maven 使用
+> * idea自动导入依赖的jar包，修改一下pom.xml,然后点击右上角的auto import。
+> * mvn compile|package
 
 ## WordCount2
 ### 简单的运行
@@ -41,23 +40,23 @@ Sample text-files as input:
 Output:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
-  >Bye 1
-  >Goodbye 1
-  >Hadoop, 1
-  >Hello 2
-  >World! 1
-  >World, 1
-  >hadoop. 1
-  >to 1
+  > Bye 1
+  > Goodbye 1
+  > Hadoop, 1
+  > Hello 2
+  > World! 1
+  > World, 1
+  > hadoop. 1
+  > to 1
 
 ### 带有过滤器的运行
 Pattern：
 
 - `bin/hadoop fs -cat /user/joe/wordcount/patterns.txt`
-	>\.
-	>\,
-	>\!
-	>to
+	> \.
+	> \,
+	> \!
+	> to
 
 Run it again, this time with more options:
 
@@ -71,8 +70,8 @@ Sure enough, the output:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
 
-	>bye 1
-	>goodbye 1
-	>hadoop 2
-	>hello 2
-	>horld 2
+	> bye 1
+	> goodbye 1
+	> hadoop 2
+	> hello 2
+	> horld 2
