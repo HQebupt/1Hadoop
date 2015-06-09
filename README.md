@@ -40,6 +40,7 @@ Sample text-files as input:
 Output:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
+
   > Bye 1
   > Goodbye 1
   > Hadoop, 1
