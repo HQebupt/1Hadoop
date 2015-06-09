@@ -1,14 +1,12 @@
 # HadoopBasis
-Hadoop learning quick starts.
-
-hadoop version：2.7.0
-
-java version: 1.7
+* Hadoop learning quick starts.
+* hadoop version：2.7.0
+* java version: 1.7
 
 ## 编译
-- mvn package
-
-target-jar包路径：./target/hadoop-basic-1.0-SNAPSHOT.jar (rename：wc.jar)
+- `mvn package`
+- target-jar包路径：
+ ./target/hadoop-basic-1.0-SNAPSHOT.jar (rename：wc.jar)
 
 > maven 使用
 > * idea自动导入依赖的jar包，修改一下pom.xml,然后点击右上角的auto import。
