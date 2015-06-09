@@ -71,8 +71,8 @@ Sure enough, the output:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
 
-> bye 1
-> goodbye 1
-> hadoop 2
-> hello 2
-> horld 2
+ * bye 1
+ * goodbye 1
+ * hadoop 2
+ * hello 2
+ * horld 2
