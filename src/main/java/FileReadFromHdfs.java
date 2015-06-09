@@ -4,13 +4,13 @@
  * 功能：处理收集到的日志。
  * 从HDFS读出文件，逐行处理查找error的信息，重新写到本地文件中，“行号+含有error的行内容”。
  */
-import java.io.*;
-import java.net.URI;
-
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+
+import java.io.*;
+import java.net.URI;
 
 public class FileReadFromHdfs {
 	public static boolean hasError(String str) {
