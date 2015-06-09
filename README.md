@@ -25,11 +25,11 @@ Sample text-files as input:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/input/file01`
 
-Hello World, Bye World!
+ * Hello World, Bye World!
 
 - `bin/hadoop fs -cat /user/joe/wordcount/input/file02`
 
-Hello Hadoop, Goodbye to hadoop.
+ * Hello Hadoop, Goodbye to hadoop.
 
 
 Sample text-files as input:
@@ -40,24 +40,24 @@ Output:
 
 - `bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
 
-> Bye 1
-> Goodbye 1
-> Hadoop, 1
-> Hello 2
-> World! 1
-> World, 1
-> hadoop. 1
-> to 1
+ * Bye 1
+ * Goodbye 1
+ * Hadoop, 1
+ * Hello 2
+ * World! 1
+ * World, 1
+ * hadoop. 1
+ * to 1
 
 ### 带有过滤器的运行
 Pattern：
 
 - `bin/hadoop fs -cat /user/joe/wordcount/patterns.txt`
 
-> \.
-> \,
-> \!
-> to
+ * \.
+ * \,
+ * \!
+ * to
 
 Run it again, this time with more options:
 
