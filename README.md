@@ -20,8 +20,8 @@ Sample text-files as input:
 
 - `bin/hadoop fs -ls /user/joe/wordcount/input/`
 
-/user/joe/wordcount/input/file01
-/user/joe/wordcount/input/file02
+ * /user/joe/wordcount/input/file01
+ * /user/joe/wordcount/input/file02
 
 - `bin/hadoop fs -cat /user/joe/wordcount/input/file01`
 
